@@ -1,0 +1,48 @@
+{
+  "desc": "此文件为 mock 数据，不许修改",
+  "data": [
+    {
+      "name": "业务1",
+      "index": "x1",
+      "pv": 1000,
+      "uv": 200,
+      "children": [
+        {
+          "name": "子业务1",
+          "index": "s1",
+          "pv": 123,
+          "uv": 4,
+          "edit": true
+        },
+        {
+          "name": "子业务2",
+          "index": "s2",
+          "pv": 53,
+          "uv": 6
+        }
+      ]
+    },
+    {
+      "name": "业务2",
+      "index": "x2",
+      "pv": 3040,
+      "uv": 220,
+      "edit": true,
+      "children": [
+        {
+          "name": "子业务1",
+          "index": "s3",
+          "pv": 66,
+          "uv": 6,
+          "edit": true
+        },
+        {
+          "name": "子业务2",
+          "index": "s4",
+          "pv": 788,
+          "uv": 8
+        }
+      ]
+    }
+  ]
+}
